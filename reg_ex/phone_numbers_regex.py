@@ -1,4 +1,4 @@
-import pyperclip, re
+import re
 
 phone_regex = re.compile(r'''(
     (\d{3}|\(\d{3}\))? # area code
